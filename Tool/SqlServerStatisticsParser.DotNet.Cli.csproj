@@ -20,6 +20,11 @@
     <AssemblyFileVersion>1.0.0.0</AssemblyFileVersion>
   </PropertyGroup>
 
-  <ProjectReference Include="..\Source\SqlServerStatisticsParser.csproj" />
+  <ItemGroup>
+    <ProjectReference Include="..\Source\SqlServerStatisticsParser.csproj" />
+  </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.2" />
+  </ItemGroup>
 </Project>
