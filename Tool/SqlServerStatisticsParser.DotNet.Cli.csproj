@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>sqlstatsparser</ToolCommandName>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AssemblyTitle>SQL Server Statistics Parser .NET Tool</AssemblyTitle>
+    <AssemblyDescription>Parses and formats SQL Server Statistics IO and Statistics Time output</AssemblyDescription>
+    <AssemblyCompany>Simmaculate, Inc.</AssemblyCompany>
+    <AssemblyProduct>StatisticsParser</AssemblyProduct>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyFileVersion>1.0.0.0</AssemblyFileVersion>
+  </PropertyGroup>
+
+</Project>
