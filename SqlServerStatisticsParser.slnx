@@ -1,6 +1,6 @@
 <Solution>
   <Folder Name="/Source/">
-    <Project Path="src/SqlServerStatisticsParser/SqlServerStatisticsParser.csproj" />
+    <Project Path="Source/SqlServerStatisticsParser/SqlServerStatisticsParser.csproj" />
   </Folder>
   <Folder Name="/Tool/">
     <Project Path="Tool/SqlServerStatisticsParser.DotNet.Cli/SqlServerStatisticsParser.DotNet.Cli.csproj" />
