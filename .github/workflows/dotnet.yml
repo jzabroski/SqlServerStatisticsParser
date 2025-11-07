@@ -36,6 +36,7 @@ jobs:
       with:
         name: nuget
         if-no-files-found: error
+        include-hidden-files: true
         retention-days: 7
         path: ${{ env.NuGetDirectory }}/*.nupkg
     - name: Publish NuGet package
