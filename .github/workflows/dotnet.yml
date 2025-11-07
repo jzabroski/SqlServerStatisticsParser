@@ -41,6 +41,7 @@ jobs:
         path: ${{ env.NuGetDirectory }}/*.nupkg
     - name: Publish NuGet package
       if: ${{ github.event_name == 'push' }}
+      shell: pwsh
       run: |
         foreach($file in (Get-ChildItem "${{ env.NuGetDirectory }}" -Recurse -Include *.nupkg)) {
           dotnet nuget push $file.FullName --api-key "${{ secrets.NUGET_APIKEY }}" --source https://api.nuget.org/v3/index.json --skip-duplicate
